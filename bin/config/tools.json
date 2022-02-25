@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Jest",
+    "npmName": "jest",
+    "files": [
+      {
+        "name": "jest.config.js",
+        "required": true,
+        "aliases": []
+      }
+    ],
+    "folders": ["__tests__", "__mocks__"]
+  },
+  {
+    "name": "ESLint",
+    "npmName": "eslint",
+    "files": [
+      {
+        "name": ".eslintrc",
+        "required": true,
+        "aliases": [".eslintrc.json", ".eslintrc.js"]
+      }
+    ],
+    "folders": []
+  },
+  {
+    "name": "Commitizer CLI (Git CZ)",
+    "npmName": "git-cz",
+    "files": [
+      {
+        "name": "changelog.config.json",
+        "required": true,
+        "aliases": []
+      }
+    ],
+    "folders": []
+  },
+  {
+    "name": "Prettier",
+    "npmName": "prettier",
+    "files": [
+      {
+        "name": ".prettierrc",
+        "required": true,
+        "aliases": [".prettierrc.json"]
+      },
+      {
+        "name": ".prettierignore",
+        "required": false,
+        "aliases": []
+      }
+    ],
+    "folders": []
+  },
+  {
+    "name": "Standard Version",
+    "npmName": "standard-version",
+    "files": [
+      {
+        "name": ".versionrc",
+        "required": false,
+        "aliases": [".versionrc.json"]
+      }
+    ],
+    "folders": ["__tests__", "__mocks__"]
+  }
+]

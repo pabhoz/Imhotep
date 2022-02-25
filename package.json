@@ -1,0 +1,43 @@
+{
+  "name": "@pabhoz/imhotep",
+  "version": "1.0.0",
+  "description": "Imhotep will help you to set a project from zero to ready to dev by setting up tools for lint, tests, code style, pre-commits, semantic versions and changelog generator.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check"
+  },
+  "bin": {
+    "imhotep": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabhoz/Imhotep.git"
+  },
+  "keywords": [
+    "semantic",
+    "commits",
+    "automation",
+    "changelog",
+    "semantical",
+    "versioning",
+    "jest",
+    "tests",
+    "lint",
+    "prettier"
+  ],
+  "author": "pabhoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabhoz/Imhotep/issues"
+  },
+  "homepage": "https://github.com/pabhoz/Imhotep#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "2.5.1"
+  }
+}
